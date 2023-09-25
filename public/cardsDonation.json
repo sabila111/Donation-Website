@@ -1,0 +1,136 @@
+ [
+      {
+        "id": 1,
+        "Picture": "https://i.ibb.co/mGnpNqd/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "#0052FF",
+        "Card_bg": "rgba(0, 82, 255, 0.20)",
+        "Text_color": "#0052FF",
+        "Description": "Clean water for children is a critical initiative aimed at ensuring that every child has access to safe and pure drinking water. This effort focuses on providing purification systems and infrastructure to eliminate waterborne diseases, promote better health, and create a brighter future for young lives around the world.",
+        "Price": "$299.99"
+      },
+      {
+        "id": 2,
+        "Picture": "https://i.ibb.co/rMRT0dJ/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "rgba(255, 68, 74, 0.20)",
+        "Card_bg": "#FF444A26",
+        "Text_color": "#FF444A",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id": 3,
+        "Picture": "https://i.ibb.co/dWycNSz/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "rgba(121, 194, 63, 0.20)",
+        "Card_bg": "#79C23F26",
+        "Text_color": "#79C23F",
+        "Description": "A used clothing drive is a community-driven effort that collects gently-worn clothing items to provide assistance to those in need. These drives encourage people to donate clothing they no longer use, which is then redistributed to individuals facing financial hardships. By reusing clothing and extending their lifecycle, these initiatives promote sustainability, reduce waste, and offer warmth and dignity to those less fortunate in our communities.",
+        "Price": "$79.99"
+      },
+      {
+        "id": 4,
+        "Picture": "https://i.ibb.co/BC98s7F/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "Category_bg": "rgba(248, 113, 71, 0.20)",
+        "Card_bg": "#F8714726",
+        "Text_color": "#F87147",
+        "Description": "Better food for everyone is a global movement dedicated to enhancing the quality, accessibility, and sustainability of our food systems. This initiative strives to improve nutritional standards, support local agriculture, reduce food waste, and empower individuals to make healthier food choices. By advocating for positive changes in food production and distribution, we aim to create a healthier and more equitable world for all.",
+        "Price": "$19.99"
+      },
+      {
+        "id": 5,
+        "Picture": "https://i.ibb.co/BC98s7F/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "Category_bg": "rgba(248, 113, 71, 0.20)",
+        "Card_bg": "#F8714726",
+        "Text_color": "#F87147",
+        "Description": "Better food for everyone is a global movement dedicated to enhancing the quality, accessibility, and sustainability of our food systems. This initiative strives to improve nutritional standards, support local agriculture, reduce food waste, and empower individuals to make healthier food choices. By advocating for positive changes in food production and distribution, we aim to create a healthier and more equitable world for all.",
+        "Price": "$19.99"
+      },
+      {
+        "id": 6,
+        "Picture": "https://i.ibb.co/dWycNSz/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "rgba(121, 194, 63, 0.20)",
+        "Card_bg": "#79C23F26",
+        "Text_color": "#79C23F",
+        "Description": "A used clothing drive is a community-driven effort that collects gently-worn clothing items to provide assistance to those in need. These drives encourage people to donate clothing they no longer use, which is then redistributed to individuals facing financial hardships. By reusing clothing and extending their lifecycle, these initiatives promote sustainability, reduce waste, and offer warmth and dignity to those less fortunate in our communities.",
+        "Price": "$79.99"
+      },
+      {
+        "id": 7,
+        "Picture": "https://i.ibb.co/rMRT0dJ/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "rgba(255, 68, 74, 0.20)",
+        "Card_bg": "#FF444A26",
+        "Text_color": "#FF444A",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id": 8,
+        "Picture": "https://i.ibb.co/mGnpNqd/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "#0052FF",
+        "Card_bg": "rgba(0, 82, 255, 0.20)",
+        "Text_color": "#0052FF",
+        "Description": "Clean water for children is a critical initiative aimed at ensuring that every child has access to safe and pure drinking water. This effort focuses on providing purification systems and infrastructure to eliminate waterborne diseases, promote better health, and create a brighter future for young lives around the world.",
+        "Price": "$299.99"
+      },
+      {
+        "id": 9,
+        "Picture": "https://i.ibb.co/mGnpNqd/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "rgba(0, 82, 255, 0.20)",
+        "Card_bg": "#0052FF26",
+        "Text_color": "#0052FF",
+        "Description": "Clean water for children is a critical initiative aimed at ensuring that every child has access to safe and pure drinking water. This effort focuses on providing purification systems and infrastructure to eliminate waterborne diseases, promote better health, and create a brighter future for young lives around the world.",
+        "Price": "$299.99"
+      },
+      {
+        "id": 10,
+        "Picture": "https://i.ibb.co/rMRT0dJ/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "rgba(255, 68, 74, 0.20)",
+        "Card_bg": "#FF444A26",
+        "Text_color": "#FF444A",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id": 11,
+        "Picture": "https://i.ibb.co/dWycNSz/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "rgba(121, 194, 63, 0.20)",
+        "Card_bg": "#79C23F26",
+        "Text_color": "#79C23F",
+        "Description": "A used clothing drive is a community-driven effort that collects gently-worn clothing items to provide assistance to those in need. These drives encourage people to donate clothing they no longer use, which is then redistributed to individuals facing financial hardships. By reusing clothing and extending their lifecycle, these initiatives promote sustainability, reduce waste, and offer warmth and dignity to those less fortunate in our communities.",
+        "Price": "$79.99"
+      },
+      {
+        "id": 12,
+        "Picture": "https://i.ibb.co/BC98s7F/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "Category_bg": "rgba(248, 113, 71, 0.20)",
+        "Card_bg": "#F8714726",
+        "Text_color": "#F87147",
+        "Description": "Better food for everyone is a global movement dedicated to enhancing the quality, accessibility, and sustainability of our food systems. This initiative strives to improve nutritional standards, support local agriculture, reduce food waste, and empower individuals to make healthier food choices. By advocating for positive changes in food production and distribution, we aim to create a healthier and more equitable world for all.",
+        "Price": "$19.99"
+      }
+    ]
+  
+  
