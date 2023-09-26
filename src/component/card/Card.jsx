@@ -2,7 +2,7 @@ import DonationCarddd from "./DonationCarddd";
 
 const Card = ({cards}) => {
 
-    console.log(cards);
+    
     return (
         <div>
 

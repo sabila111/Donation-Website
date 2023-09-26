@@ -7,12 +7,12 @@ const DonationCarddd = ({card}) => {
         const {id,Picture,Title,Category,Category_bg,Description,Price,Card_bg,Text_color }= card || {}
 
     return (
-        <Link>
+        <Link to={`/donationCardDetail/${id}`}>
         
         <div style={{background:Card_bg}} className="card-compact w-72 bg-base-100 ">
   <figure><img className="w-[312px] h-[194px" src={Picture} alt="Shoes" /></figure>
   <div className="card-body">
-    <p style={{background:Card_bg, color:Text_color}} className="text-left text-sm">{Category}</p>
+    <p style={{background:Category_bg, color:Text_color}} className="text-left text-sm">{Category}</p>
     <p className="text-left text-xl" style={{color:Text_color}}>{Title}</p>
     
   </div>
