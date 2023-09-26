@@ -26,7 +26,7 @@ setSearch(e.target.value);
        <input 
        onChange={handleSearchChange}
        className="border-solid border-slate-600 py-4 px-8 text-black rounded-lg" type="search" name="search" placeholder="Search here...." />
-      {/* <button className="py-3 px-6 rounded-lg bg-red-500 text-slate-50">Search</button> */}
+      
       <input className="bg-red-600 py-3 px-6 rounded-lg text-white" type="submit" value="submit" />
        </form>
       </div>
