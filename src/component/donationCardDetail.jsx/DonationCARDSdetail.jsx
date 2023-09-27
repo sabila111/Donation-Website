@@ -8,7 +8,7 @@ const DonationCARDSdetail = ({ card }) => {
     const { id, Picture, Title, Description, Price, Text_color } = card || {}
 
     const handleApplyDonation = () => {
-
+        toast('Donated Successfully');
         const donationArray = [];
         const donationItem = JSON.parse(localStorage.getItem('test'))
 
@@ -28,9 +28,7 @@ const DonationCARDSdetail = ({ card }) => {
 
             }
 
-            else{
-                toast('Donated Successfully');
-            }
+            
 
         }
 

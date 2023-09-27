@@ -1,16 +1,21 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
 
-    const [search, setSearch]= useState(null);
+    const [search, setSearch]= useState("");
+    const [cards, setCards]= useState([]);
 
 const handleSubmit= e =>{
 e.preventDefault();
 
 }
 const handleSearchChange= e =>{
-console.log(e.target);
-setSearch(e.target.value);
+if(!e.target.value) return setSearch(cards)
+const resultArray = cards.filter(searches => searches.Category.includes(e.target.value))
+setSearch(resultArray)
+// console.log(e.target);
+// setSearch(e.target.value);
 }
 
     return (
@@ -27,7 +32,8 @@ setSearch(e.target.value);
        onChange={handleSearchChange}
        className="border-solid border-slate-600 py-4 px-8 text-black rounded-lg" type="search" name="search" placeholder="Search here...." />
       
-      <input className="bg-red-600 py-3 px-6 rounded-lg text-white" type="submit" value="submit" />
+      {/* <input className="bg-red-600 py-3 px-6 rounded-lg text-white" type="submit" value="submit" /> */}
+      <Link><button  className="bg-red-600 py-3 px-6 rounded-lg text-white" >submit</button></Link>
        </form>
       </div>
     </div>

@@ -4,8 +4,8 @@
         "Picture": "https://i.ibb.co/mGnpNqd/Health.png",
         "Title": "Clean water for children",
         "Category": "Health",
-        "Category_bg": "#0052FF",
-        "Card_bg": "rgba(0, 82, 255, 0.20)",
+        "Category_bg": "rgba(0, 82, 255, 0.20)",
+        "Card_bg": " #0052FF26",
         "Text_color": "#0052FF",
         "Description": "Clean water for children is a critical initiative aimed at ensuring that every child has access to safe and pure drinking water. This effort focuses on providing purification systems and infrastructure to eliminate waterborne diseases, promote better health, and create a brighter future for young lives around the world.",
         "Price": "$299.99"
@@ -81,8 +81,8 @@
         "Picture": "https://i.ibb.co/mGnpNqd/Health.png",
         "Title": "Clean water for children",
         "Category": "Health",
-        "Category_bg": "#0052FF",
-        "Card_bg": "rgba(0, 82, 255, 0.20)",
+        "Category_bg": "rgba(0, 82, 255, 0.20)",
+        "Card_bg": "#0052FF26",
         "Text_color": "#0052FF",
         "Description": "Clean water for children is a critical initiative aimed at ensuring that every child has access to safe and pure drinking water. This effort focuses on providing purification systems and infrastructure to eliminate waterborne diseases, promote better health, and create a brighter future for young lives around the world.",
         "Price": "$299.99"
