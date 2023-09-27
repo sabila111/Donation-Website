@@ -1,56 +1,65 @@
-import React, { useEffect, useState } from "react";
-import { PieChart, Pie, Legend, ResponsiveContainer, Cell } from 'recharts';
+import React, { useEffect, useState } from 'react';
+import { PieChart, Pie, Legend, Cell, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
-    const [localData, setLocalData] = useState([]);
+  const [data, setData] = useState([]);
+  const [addedCard, setAddedCard] = useState(0);
 
-    useEffect(() => {
-        // Retrieve the data from local storage
-        const dataFromLocalStorage = JSON.parse(localStorage.getItem('test')) || [];
-        setLocalData(dataFromLocalStorage);
-    }, []);
+  useEffect(() => {
+    
+    const storedData = localStorage.getItem('/cardsDonation.json');
 
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+    if (storedData) {
+    
+      setData(JSON.parse(storedData));
+    }
 
-    const RADIAN = Math.PI / 180;
+    
+    const storedAddedCard = localStorage.getItem('addedCard');
 
-    const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-        const x = cx + radius * Math.cos(-midAngle * RADIAN);
-        const y = cy + radius * Math.sin(-midAngle * RADIAN);
+    if (storedAddedCard) {
+      
+      setAddedCard(parseFloat(storedAddedCard));
+    }
+  }, []);
 
-        return (
-            <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-                {`${(percent * 100).toFixed(0)}%`}
-            </text>
-        );
-    };
+  
+  const calculatedValue = ((12 - addedCard) / 12) * 100;
 
-    return (
-        <>
-            <div>
-                <ResponsiveContainer width={400} height={400} className="text-center">
-                    <PieChart width={400} height={400}>
-                        <Legend layout="vertical" verticalAlign="top" align="top" />
-                        <Pie
-                            data={localData}
-                            cx="50%"
-                            cy="50%"
-                            labelLine={false}
-                            label={renderCustomizedLabel}
-                            outerRadius={80}
-                            fill="#8884d8"
-                            dataKey="value"
-                        >
-                            {localData.map((entry, index) => (
-                                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                            ))}
-                        </Pie>
-                    </PieChart>
-                </ResponsiveContainer>
-            </div>
-        </>
-    );
-}
+  
+  const newData = [
+    { name: 'Total Donation', value: calculatedValue },
+    { name: 'Your Donation', value: addedCard }
+  ];
+
+  const COLORS = ['#FF444A', '#00C49F'];
+
+  return (
+    <>
+      <div>
+        <div className="  justify-content-center text-center">
+          <div className="">
+            <ResponsiveContainer width={400} height={400} className="text-center">
+              <PieChart width={400} height={400}>
+                <Legend layout="vertical" verticalAlign="center" align="center" />
+                <Pie
+                  data={newData}
+                  labelLine={false}
+                  outerRadius={80}
+                  fill="#8884d8"
+                  dataKey="value"
+                >
+                  {newData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Statistics;
